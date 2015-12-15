@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+	"SublimeLinter":
+    {
+        "linters":
+        {
+            "javac": {
+                "chdir": "${project}",
+                "args": ["-classpath", "/home/polo/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar",
+                    "-sourcepath", "${project}/src/main/java/:${project}/src/test/java/"],
+            }
+        }
+    }
+}
